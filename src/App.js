@@ -1,9 +1,10 @@
+import { Alice } from "./Alice";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Alice />
     </div>
   );
 }
