@@ -11,15 +11,16 @@ export const Alice = () => {
     iterations: Infinity,
   };
 
-  var sceneryTimingForeground = {
+  const sceneryTimingForeground = {
     duration: 12000,
     iterations: Infinity,
   };
 
-  var spriteFrames = [
+  const spriteFrames = [
     { transform: "translateY(0)" },
     { transform: "translateY(-100%)" },
   ];
+
   const spriteFramesTiming = {
     easing: "steps(7, end)",
     direction: "reverse",
